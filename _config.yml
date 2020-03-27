@@ -20,7 +20,7 @@ paginate_path: /page:num/
 defaults:
   -
     scope:
-      path: "/blog/"
+      path: "/blog/page:num/"
       type: "posts"
     values:
       layout: "post"
